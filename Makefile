@@ -1,4 +1,4 @@
-all: tsp
+all: neighborly-tour
 
-tsp: tsp.cpp
-	g++ -std=c++14 -O3 tsp.cpp -o tsp
+tsp: neighborly-tour.cpp
+	g++ -std=c++14 -O3 neighborly-tour.cpp -o neighborly-tour
